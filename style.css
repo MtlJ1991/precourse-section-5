@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/desert10.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#submitted {
+    visibility: hidden;
+    background: #2a2a2c;
+    padding: 15px 25px 15px 25px;
+    width: 450px;
+    border-radius: 25px;
+    float: left;
+    color: white;
+    margin-left: 45px;
+    margin-top: 45px;
+
+}
+#quiz{
+    margin-left: 15px;
+    background: #2a2a2c;
+    padding: 15px 25px 15px 25px;
+    width: 450px;
+    border-radius: 25px;
+    float: left;
+    color: white;
+    margin-top: 15px;
+}
+
+
+#picture{
+    width: 375px;
+    height: 245px;
+}
+
+#question{
+font-size: 22px;
+
+}
+
+#title{
+    font-style: bold;
+    text-align: center;
+    font-size: 65px;
+    font-family: Kavoon;
+}
+
+#response{
+    font-style: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+#number_correct{
+    font-style: bold;
+    font-size: 22px;
+    text-align: center;
+}
+.jumbotron{
+    margin-top:20px;
+    background: url(img/desert10.jpg) no-repeat 0 -255px;
+    color: black;
+}

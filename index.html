@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title></title>
+       <link href="https://fonts.googleapis.com/css?family=Kavoon" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+       <link rel="stylesheet" href="style.css">
+       <script src="main.js"></script>
+      
+    </head>
+    <body>
+        <audio controls autoplay loop>
+            <source src="track/vegeta_ssj.mp3">
+        </audio>
+ <div class="container">    
+ <div class = "Jumbotron">        
+        <h1 id="title">Dragon Ball Z quiz!!</h1>
+
+          <form id="quiz" name="theQuiz">
+<p id="question">Who did Goku kill on planet Namek?</p>
+<input type ="radio" id="multipleChoice" name="question1" value = "Frieza">Frieza<br>
+<input type ="radio" id="multipleChoice" name="question1" value = "Captain">Captain Ginyu<br>
+<input type ="radio" id="multipleChoice" name="question1" value = "Namek">A random Namekain<br>
+
+<br>
+
+<p id="question">How long does Vegitos' fusion last?</p>
+<input type ="radio" id="multipleChoice" name="question2" value = "Week">Five weeks<br>
+<input type ="radio" id="multipleChoice" name="question2" value = "Hour">One Hour<br>
+<input type ="radio" id="multipleChoice" name="question2" value = "Forever">Forever<br>
+
+<br>
+
+<p id="question">What did android 13 lose?</p>
+<input type ="radio" id="multipleChoice" name="question3" value = "Voice">His voice<br>
+<input type ="radio" id="multipleChoice" name="question3" value = "Hat">His Trucker hat<br>
+<input type ="radio" id="multipleChoice" name="question3" value = "Fight">The fight <br>
+
+<input id="button" type="button" value="I'm finished!" onclick="check();">
+          </form>
+
+</div>   
+</div>   
+ <!-- Last line is Jumbotron ending -->     
+
+<div id="submitted">
+<p id="response"></p>
+<p id="number_correct"></p>
+<img id="picture">
+</div>
+    
+       
+    </body>
+</html>
